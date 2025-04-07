@@ -1,0 +1,11 @@
+---
+
+services:
+  cln-to-stdout:
+    image: cln-to-stdout:development
+    build:
+      context: .
+    environment:
+      CLOUDINARY_API_KEY:
+      CLOUDINARY_API_SECRET:
+      CLOUDINARY_CLOUD_NAME:
